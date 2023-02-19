@@ -1,0 +1,19 @@
+.place__website-text {
+    font-family: 'Inter-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #AAAAAA;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width: 800px) {
+    .place__website-text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}

@@ -1,0 +1,21 @@
+.place__paragraph-text {
+    font-family: 'Inter-Regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 26px;
+}
+
+.place__paragraph-text:first-child {
+    padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .place__paragraph-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

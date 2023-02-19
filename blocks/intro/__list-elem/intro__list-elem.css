@@ -1,0 +1,15 @@
+.intro__list-elem {
+    font-family: "Inter-Bold", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+@media screen and (max-width: 665px) {
+    .intro__list-elem {
+        font-size: 12px;
+    }
+}
