@@ -1,5 +1,5 @@
 .place__website-text {
-    font-family: 'Inter-Regular', Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -9,11 +9,5 @@
     color: #AAAAAA;
     margin: 0;
     margin-bottom: 12px;
-}
-
-@media screen and (max-width: 800px) {
-    .place__website-text {
-        font-size: 12px;
-        line-height: 12px;
-    }
+    text-transform: uppercase;
 }
