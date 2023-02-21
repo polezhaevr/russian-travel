@@ -1,3 +1,7 @@
 .header__lang-links-item {
     padding-left: 18px;
 }
+
+.header__lang-links-item:first-child {
+    padding-left: 0;
+}
